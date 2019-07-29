@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.textView5);
         editText = (EditText) findViewById(R.id.editText4);
 
-
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 String name = editText.getText().toString();
@@ -40,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-
                 Intent intent = new Intent(context, Main2Activity.class);
                 startActivity(intent);
 
